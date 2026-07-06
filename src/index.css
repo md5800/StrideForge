@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  color: #16171d;
+  background: #ffffff;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.img-loading {
+  filter: blur(0);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
